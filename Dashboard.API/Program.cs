@@ -137,7 +137,7 @@ builder.Services.AddEndpointsApiExplorer();
 //        }
 //    });
 //});
-builder.WebHost.UseUrls("http://*:8080");
+// builder.WebHost.UseUrls("http://*:8080");
 
 var app = builder.Build();
 
